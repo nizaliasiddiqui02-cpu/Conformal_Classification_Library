@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1792356991.40651 "main.bcf" "main.bbl" "main" 1792357000.85968 0
-  "main.bcf" 1792357000 107959 889f86c525b0e75fda2ea1195e6372f8 "pdflatex"
-  "references.bib" 1792348778 7971 0454e0c75bdb1b52257dd30ca491c90f ""
+["biber main"] 1793086910.9075 "main.bcf" "main.bbl" "main" 1793086915.10082 0
+  "main.bcf" 1793086914 108032 55857248c2e953c4d08439f714bded59 "pdflatex"
+  "references.bib" 1793086803 1624 6b04712d46c5a73a849ce71e1f45e58a ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1792356998.57742 "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" "main.pdf" "main" 1792357000.86033 0
+["pdflatex"] 1793086912.91378 "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" "main.pdf" "main" 1793086915.10148 0
   "Abstract.tex" 1791677732 14 9f241c6ab43c5f8c747adcb16e49b83e ""
   "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" 1792106319 613 570e22fd34b53e165b2cfde8a35390a7 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1779807214 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -20,7 +20,6 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1779835584 6880 f19b8995b61c334d78fc734065f6b4d4 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1779835584 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm" 1779835584 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
-  "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm" 1779835584 16648 7e91c60ebf91b9c60e16ef52b3070f9c ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1779835584 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1779835584 4640 532ca3305aad10cc01d769f3f91f1029 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm" 1779835584 6944 94c55ad86e6ea2826f78ba2240d50df9 ""
@@ -29,6 +28,7 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm" 1779835584 1032 20febbd0f0c9a48eb78616f897008286 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm" 1779835584 1520 ad7b3c1a480a03b3e41b5fbb13d938f2 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1779807263 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ectt0900.tfm" 1779807263 1536 ae7aab2f8a4bc9edfce2899f53ba88c3 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm" 1779807263 1536 a988bfe554c1f79514bd46d13c3c64ce ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1779807263 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1779802657 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -44,6 +44,7 @@
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1779802657 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1779802657 34694 870c211f62cb72718a00e353f14f254d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1779806415 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb" 1779806415 170827 b1cb46f82d978af2aeb6bf26777fa82d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb" 1779806415 169670 061d76bd536389c258413384f964e74a ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb" 1779834606 16077 4737ac34f0fb5608550f3780a0202c22 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb" 1779835141 33709 b09d2e140b7e807d3a97058263ab6693 ""
@@ -52,7 +53,6 @@
   "c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1779835584 45458 504e2b06fa82109d168c7a0afb09e145 ""
   "c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf" 1779835584 2340 df9c920cc5688ebbf16a93f45ce7bdd3 ""
   "c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf" 1779835584 2348 91706c542228501c410c266421fbe30c ""
-  "c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf" 1779835584 3608 eb048a634708cbf5eda8def0ce93c7bb ""
   "c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf" 1779835584 2328 6cd7df782b09b29cfc4d93e55b6b9a59 ""
   "c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf" 1779835584 1132 27520247d3fe18d4266a226b461885c2 ""
   "c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf" 1779835584 1108 d271d6f9de4122c3f8d3b65666167fac ""
@@ -295,15 +295,15 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1779836457 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1779836539 3651027 c29cdc331aa84ea8f8acaabd4acafee3 ""
   "c:/texlive/2026/texmf.cnf" 1779836426 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1792357000 4203 fde9939ef38d77dc282b072506ea11ff "pdflatex"
-  "main.bbl" 1792356993 4698 4b10b9185d20d455152db596466879eb "biber main"
-  "main.out" 1792357000 408 2d1886010a6969356402cd2c2a94c6a3 "pdflatex"
-  "main.run.xml" 1792357000 2335 ef80104ca63a61877d02caff42e7e9c5 "pdflatex"
+  "main.aux" 1793086914 4496 da06db6816ac3633ba26fd3ca306b930 "pdflatex"
+  "main.bbl" 1793086912 486 76d65a242ec496c9b4361af646ff12cb "biber main"
+  "main.out" 1793086914 491 8cc6bac0f8c317773df5cddfba5430bb "pdflatex"
+  "main.run.xml" 1793086914 2335 62049a0f650445b9ae89874f3e6af65b "pdflatex"
   "main.tex" 1792106319 613 570e22fd34b53e165b2cfde8a35390a7 ""
   "preamble.tex" 1792356986 2149 c2f81882f480078e956e5222e55872ba ""
   "section2.tex" 1791910729 4942 78449f7cedf575ef8b1385dd8e557288 ""
   "section3.tex" 1791910656 10502 4193d77d3e0796722685b1e18c52a281 ""
-  "section4.tex" 1792104935 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "section4.tex" 1792358659 5008 228b8bdca52844a7985d214b896d7815 ""
   "section5.tex" 1792354953 4931 e2a47ccc2dbc2adb45f3bc6da42d464b ""
   (generated)
   "main.aux"
