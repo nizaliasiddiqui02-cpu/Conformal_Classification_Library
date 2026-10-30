@@ -1,80 +1,80 @@
-% !TeX root = main.tex
-\documentclass[11pt]{article}
-\usepackage[french,english]{babel}
-\usepackage[margin=2.5cm]{geometry}
-\usepackage{amsmath,amssymb,amsthm,booktabs}
+% % !TeX root = main.tex
+% \documentclass[11pt]{article}
+% \usepackage[french,english]{babel}
+% \usepackage[margin=2.5cm]{geometry}
+% \usepackage{amsmath,amssymb,amsthm,booktabs}
 
-% Page layout
+% % Page layout
 
-% Packages
-\usepackage{lipsum}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{mathptmx} % font = times
-\usepackage{helvet}   % font sf = helvetica
-\usepackage{relsize}
-\usepackage[T1]{fontenc}
-\usepackage{tikz}
-\usetikzlibrary{arrows.meta, positioning}
-\usetikzlibrary{calc,arrows.meta,patterns,decorations.pathreplacing}
-\usepackage{booktabs}
-\usepackage{textcomp}
-\usepackage{multirow}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
-\usepackage{url}
-\usepackage{footnote}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{cleveref}
-\usepackage{amssymb}
-\usepackage{amsthm}
-\usepackage{float}
-\usepackage{xcolor}
-\usepackage{todonotes}
+% % Packages
+% \usepackage{lipsum}
+% \usepackage{graphicx}
+% \usepackage{amsmath}
+% \usepackage{mathptmx} % font = times
+% \usepackage{helvet}   % font sf = helvetica
+% \usepackage{relsize}
+% \usepackage[T1]{fontenc}
+% \usepackage{tikz}
+% \usetikzlibrary{arrows.meta, positioning}
+% \usetikzlibrary{calc,arrows.meta,patterns,decorations.pathreplacing}
+% \usepackage{booktabs}
+% \usepackage{textcomp}
+% \usepackage{multirow}
+% \usepackage{pgfplots}
+% \pgfplotsset{compat=1.18}
+% \usepackage{url}
+% \usepackage{footnote}
+% \usepackage{enumitem}
+% \usepackage{hyperref}
+% \usepackage{cleveref}
+% \usepackage{amssymb}
+% \usepackage{amsthm}
+% \usepackage{float}
+% \usepackage{xcolor}
+% \usepackage{todonotes}
 
-\usepackage{csquotes} % Add this line before biblatex
-\usepackage[style=numeric, sorting=none]{biblatex}
-\addbibresource{references.bib}             
+% \usepackage{csquotes} % Add this line before biblatex
+% \usepackage[style=numeric, sorting=none]{biblatex}
+% \addbibresource{references.bib}             
 
-% Paragraph spacing
-\setlength{\parskip}{\medskipamount}
-\setlength{\parindent}{0pt}
+% % Paragraph spacing
+% \setlength{\parskip}{\medskipamount}
+% \setlength{\parindent}{0pt}
 
-%%%%% Theorem setting
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{proposition}[theorem]{Proposition}
+% %%%%% Theorem setting
+% \theoremstyle{plain}
+% \newtheorem{theorem}{Theorem}[section]
+% \newtheorem{corollary}[theorem]{Corollary}
+% \newtheorem{proposition}[theorem]{Proposition}
 
-%%%%%% Definition setting
-\theoremstyle{definition} 
-\newtheorem{definition}{Definition}[section]
+% %%%%%% Definition setting
+% \theoremstyle{definition} 
+% \newtheorem{definition}{Definition}[section]
 
-% Tikz configuration
-\usetikzlibrary{arrows,shapes,positioning,shadows,trees}
-\makesavenoteenv{tabular}
-\makesavenoteenv{table}
+% % Tikz configuration
+% \usetikzlibrary{arrows,shapes,positioning,shadows,trees}
+% \makesavenoteenv{tabular}
+% \makesavenoteenv{table}
 
-\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+% \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 
-% Header styling (article-compatible)
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\sffamily\nouppercase\rightmark}
-\fancyhead[R]{\sffamily\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\setcounter{secnumdepth}{2}
+% % Header styling (article-compatible)
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \fancyhf{}
+% \fancyhead[L]{\sffamily\nouppercase\rightmark}
+% \fancyhead[R]{\sffamily\thepage}
+% \renewcommand{\headrulewidth}{0.4pt}
+% \setcounter{secnumdepth}{2}
 
-\pagestyle{plain}
+% \pagestyle{plain}
 
-% Allow this preamble file to be compiled directly for a quick build check.
-\makeatletter
-\edef\preamble@jobname{\jobname}
-\def\preamble@standalone{preamble}
-\ifx\preamble@jobname\preamble@standalone
-	\begin{document}
-	\end{document}
-\fi
-\makeatother
+% % Allow this preamble file to be compiled directly for a quick build check.
+% \makeatletter
+% \edef\preamble@jobname{\jobname}
+% \def\preamble@standalone{preamble}
+% \ifx\preamble@jobname\preamble@standalone
+% 	\begin{document}
+% 	\end{document}
+% \fi
+% \makeatother

@@ -47,7 +47,7 @@ $k/(n+1)<1-\alpha+1/(n+1)$. Averaging over $S_{1,h}$ and the directions gives th
 $h$ with the class probabilities gives the marginal one.
 \end{proof}
 
-This is the Mondrian form of conformal prediction \cite{vovk2005algorithmic}. It does not give coverage conditional on an 
+This is the Mondrian form of conformal prediction \citep{vovk2005algorithmic}. It does not give coverage conditional on an 
 individual input $x$, which is not possible in finite samples without strong assumptions. The observed sets $m_h$ are part of the 
 exchangeable pairs, so a new sample must have the same missingness mechanism as the calibration samples. If a class has few 
 calibration samples, so that $k_h>|S_{2,h}|$, its threshold is infinite and it is always accepted. The library can also return 

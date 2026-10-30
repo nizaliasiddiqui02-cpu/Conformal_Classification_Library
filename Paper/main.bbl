@@ -1,20 +1,63 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{9}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Angelopoulos and Bates(2023)}]{angelopoulos2023conformal}
+\bibinfo{author}{Angelopoulos, A.N.}, \bibinfo{author}{Bates, S.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Conformal prediction: A gentle introduction}.
+\newblock \bibinfo{journal}{Foundations and Trends in Machine Learning} \bibinfo{volume}{16}, \bibinfo{pages}{494--591}.
+\newblock \DOIprefix\doi{10.1561/2200000101}.
+%Type = Misc
+\bibitem[{Gasparin and Ramdas(2024)}]{gasparin2024merging}
+\bibinfo{author}{Gasparin, M.}, \bibinfo{author}{Ramdas, A.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Merging uncertainty sets via majority vote}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2401.09379}.
+%Type = Misc
+\bibitem[{{Kaggle user karangadiya}()}]{fifa19data}
+\bibinfo{author}{{Kaggle user karangadiya}}, .
+\newblock \bibinfo{title}{{FIFA 19} complete player dataset}.
+\newblock \bibinfo{howpublished}{Kaggle dataset}.
+\newblock \URLprefix \url{https://www.kaggle.com/datasets/karangadiya/fifa19}.
+%Type = Misc
+\bibitem[{Luo and Zhou(2024)}]{luo2024weighted}
+\bibinfo{author}{Luo, R.}, \bibinfo{author}{Zhou, Z.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Weighted aggregation of conformity scores for classification}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2407.10230}.
+%Type = Misc
+\bibitem[{NAME(2026)}]{conformalenvelopes}
+\bibinfo{author}{NAME, Y.}, \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{Conformal envelopes: class-specific conformal prediction sets with missing-score handling}.
+\newblock \bibinfo{howpublished}{Python package, version 0.2.0}.
+\newblock \URLprefix \url{https://github.com/Nizalia13/Conformal_Classification_Library}.
+%Type = Inproceedings
+\bibitem[{Patel et~al.(2025)Patel, Ochoa~Rivera and Tewari}]{ochoarivera2024conformal}
+\bibinfo{author}{Patel, Y.}, \bibinfo{author}{Ochoa~Rivera, E.}, \bibinfo{author}{Tewari, A.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Conformal prediction for ensembles: Improving efficiency via score-based aggregation}, in: \bibinfo{booktitle}{Advances in Neural Information Processing Systems}.
+\newblock \bibinfo{note}{ArXiv:2405.16246}.
+%Type = Article
+\bibitem[{Shafer and Vovk(2008)}]{shafer2008tutorial}
+\bibinfo{author}{Shafer, G.}, \bibinfo{author}{Vovk, V.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{A tutorial on conformal prediction}.
+\newblock \bibinfo{journal}{Journal of Machine Learning Research} \bibinfo{volume}{9}, \bibinfo{pages}{371--421}.
+%Type = Book
+\bibitem[{Vovk et~al.(2005)Vovk, Gammerman and Shafer}]{vovk2005algorithmic}
+\bibinfo{author}{Vovk, V.}, \bibinfo{author}{Gammerman, A.}, \bibinfo{author}{Shafer, G.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Algorithmic Learning in a Random World}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+%Type = Article
+\bibitem[{Yang and Kuchibhotla(2024)}]{yang2024selection}
+\bibinfo{author}{Yang, Y.}, \bibinfo{author}{Kuchibhotla, A.K.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Selection and aggregation of conformal prediction sets}.
+\newblock \bibinfo{journal}{Journal of the American Statistical Association} , \bibinfo{pages}{1--13}.
 
-\endinput
-
+\end{thebibliography}

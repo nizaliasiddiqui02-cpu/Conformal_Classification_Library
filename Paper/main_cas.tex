@@ -1,0 +1,60 @@
+\documentclass[a4paper,fleqn]{cas-sc}
+\usepackage[authoryear,longnamesfirst]{natbib}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newproof{proof}{Proof}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+\shorttitle{Conformal envelopes}
+\shortauthors{YOUR NAME}
+
+\title[mode=title]{Conformal envelopes: class-specific conformal prediction sets with missing scores}
+
+\author[1]{YOUR NAME}
+\cormark[1]
+\ead{your.email@example.com}
+\credit{Conceptualization, Methodology, Software, Writing -- original draft}
+\affiliation[1]{organization={Your institution},
+            city={Your city},
+            country={Your country}}
+\cortext[1]{Corresponding author}
+
+\begin{abstract}
+Abstract to be written.
+\end{abstract}
+
+\begin{highlights}
+\item To be written.
+\item To be written.
+\item To be written.
+\end{highlights}
+
+\begin{keywords}
+conformal prediction \sep classification \sep missing data \sep software
+\end{keywords}
+
+\maketitle
+
+\input{section1}
+\input{section2}
+\input{section3}
+\input{section4}
+\input{section5}
+
+\section{Discussion and limitations}\label{sec:discussion}
+To be written.
+
+\printcredits
+
+\bibliographystyle{cas-model2-names}
+\bibliography{references}
+
+\end{document}

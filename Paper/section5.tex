@@ -6,7 +6,7 @@ set $S_1$ and the size scaling set $S_2$, finally coverage is the proportion of 
 the true label. We report coverage, the average set size, the singleton rate and the empty-set rate, as mean $\pm$ 
 standard error over repeated runs. The radial method uses $M=100$, $\kappa=4$ and $\delta=30^\circ$, and the strip 
 method uses $NB=8$ with $n_0=3$ on the simulated data and $n_0=10$ on the football data; all other parameters are the 
-default parameters in the library. The code and the saved outputs are available at \cite{conformalenvelopes}.
+default parameters in the library. The code and the saved outputs are available at \citep{conformalenvelopes}.
 % \url{https://github.com/Nizalia13/Conformal_Classification_Library}.
 
 \paragraph{Simulated data.} There are two classes, $A$ and $B$, and four predictors which are used to score each candidate 
@@ -18,7 +18,7 @@ it carries no information. Each score is then independently hidden with probabil
 candidate are hidden the draw is repeated. In each run there are $1500$ training draws and $500$ test samples, and we use 
 $500$ independent runs.
 
-\paragraph{Football data.} We classify FIFA~19 players from $34$ skill ratings \cite{fifa19data}. In the first task 
+\paragraph{Football data.} We classify FIFA~19 players from $34$ skill ratings \citep{fifa19data}. In the first task 
 the label is simpler, it is just the role (defender, midfielder, attacker or goalkeeper) for $18{,}147$ players. In the 
 second it is the recorded position, in this we only use the $17{,}835$ players in the $20$ positions with at least $100$ 
 player records. Four classifiers (logistic regression, random forest, gradient boosting and a support vector classifier) 
