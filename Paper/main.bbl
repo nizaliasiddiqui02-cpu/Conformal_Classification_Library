@@ -42,7 +42,7 @@
 %Type = Inproceedings
 \bibitem[{Patel et~al.(2025)Patel, Ochoa~Rivera and Tewari}]{ochoarivera2024conformal}
 \bibinfo{author}{Patel, Y.}, \bibinfo{author}{Ochoa~Rivera, E.}, \bibinfo{author}{Tewari, A.}, \bibinfo{year}{2025}.
-\newblock \bibinfo{title}{Conformal prediction for ensembles: Improving efficiency via score-based aggregation}, in: \bibinfo{booktitle}{Advances in Neural Information Processing Systems}.
+\newblock \bibinfo{title}{Conformal prediction for ensembles: Improving efficiency via score-based aggregation}, in: \bibinfo{booktitle}{Advances in Neural Information Processing Systems}, pp. \bibinfo{pages}{1--12}.
 \newblock \bibinfo{note}{ArXiv:2405.16246}.
 %Type = Article
 \bibitem[{Shafer and Vovk(2008)}]{shafer2008tutorial}

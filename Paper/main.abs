@@ -1,1 +1,14 @@
-Abstract to be written.
+Conformal prediction uses the output of a trained predictor and returns a prediction set that contains the true label
+with a chosen probability. When there are several predictors scoring each candidate class, the scores have to be
+combined, and the way they are combined influences the size of the sets. We present class specific conformal envelopes
+for classification. For each class, the shape of an envelope in the space of the score vectors is learned on one part of
+the calibration data of that class, and its size is scaled on the other part. Here we propose three envelope construction
+methods: a collapsed envelope that averages the scores, a radial envelope whose boundary depends on the direction of the
+score vector, and a strip envelope that bounds each score given the value of another score. All three methods only use
+the observed scores of a sample, so samples with missing scores still receive prediction sets. We show that when the
+samples of a class are exchangeable and the missingness has the same dstribution in the calibration and test data, the
+sets have atleast the nominal level of class conditional coverage. These constructions are implemented in an open source
+Python package. In experiments on simulated data with missing scores and on football player classification with four
+roles and with twenty positions, the average coverage of all three constructions is between 0.899 and 0.903 for a
+target of 0.9, the set sizes are similar, and no construction is best in every experiment.
+

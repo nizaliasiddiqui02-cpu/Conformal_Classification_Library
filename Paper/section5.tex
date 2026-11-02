@@ -1,8 +1,8 @@
 \section{Experiments}\label{sec:experiments}
 
 We evaluated the three envelope construction methods on simulated data with missing scores and on two football 
-classification tasks. We keep $\alpha=0.1$ throughout, the sample of each class is split equally into the shape discovery 
-set $S_1$ and the size scaling set $S_2$, finally coverage is the proportion of test samples whose prediction set contains 
+classification tasks. We use $\alpha=0.1$ throughout, and the sample of each class is split equally into the shape discovery 
+set $S_1$ and the size scaling set $S_2$. The coverage is the proportion of test samples whose prediction set contains 
 the true label. We report coverage, the average set size, the singleton rate and the empty-set rate, as mean $\pm$ 
 standard error over repeated runs. The radial method uses $M=100$, $\kappa=4$ and $\delta=30^\circ$, and the strip 
 method uses $NB=8$ with $n_0=3$ on the simulated data and $n_0=10$ on the football data; all other parameters are the 
@@ -24,7 +24,7 @@ second it is the recorded position, in this we only use the $17{,}835$ players i
 player records. Four classifiers (logistic regression, random forest, gradient boosting and a support vector classifier) 
 are trained on a separate $40\%$ of the players, and the scores are their predicted probabilities of each label. Another
 $20\%$ is used for validation, and the remaining players are used for conformal fitting ($30\%$) and testing ($10\%$). 
-To measure the variability of the coverage, we keep the trained classifiers fixed and evaluate them over $100$ random split 
+To measure the variability of the coverage, we keep the trained classifiers fixed and evaluate them over $100$ random splits 
 of the remaining data into calibration and test sets (sized $5{,}444$ / $1{,}815$ for roles and 
 $5{,}351$ / $1{,}784$ for positions). The data contain no missing scores.
 

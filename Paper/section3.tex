@@ -73,8 +73,8 @@ which is $\inf\{t>0:v\in t\cdot E\}$ computed on the observed coordinates. We us
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- → 
- →  (twice, in the limits equation)
+%  → 
+%  →  (twice, in the limits equation)
 
 \paragraph{Strip envelope.} The strip envelope works by defining conditional bounds for each target coordinate $i$ based on the 
 bin occupied by another coordinate $j$. We partition the range of the observed $S_1$ values of coordinate $j$ into $NB$ equal width 
@@ -106,9 +106,18 @@ a target nor as a conditioning coordinate. The scaling function is
 \end{cases}
 \end{equation}
 so a vector is accepted when $v_i\le\hat t\,L_{j,i,\beta_j(v_j)}$ for every pair of observed coordinates. The single scalar 
-$\hat t$ multiplies all the limits, while the bins stay fixed. We use $NB=8$ and $n_0=3$ by default.
+$\hat t$ multiplies all the limits, while the bins stay fixed. We use $NB=8$ and $n_0=3$ by default. Figure~\ref{fig:envelopes} 
+shows the three envelopes for two predictors.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{Plots/2d_envelope_synthetic.png}
+\caption{Envelopes of the three constructions. The two dimensional envelope of one class of the 
+simulated data, fitted on two predictors only. The shaded region is the accepted region, and the 
+markers show test samples accepted or rejected by this two dimensional envelope.}
+\label{fig:envelopes}
+\end{figure}
 
 \paragraph{Properties and missing scores.} The three scaling functions share one structural property.
 

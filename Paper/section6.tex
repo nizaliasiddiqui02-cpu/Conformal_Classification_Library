@@ -1,0 +1,20 @@
+\section{Discussion and limitations}\label{sec:discussion}
+
+We presented three class specific conformal envelopes for classification with several predictors: a collapsed, a radial 
+and a strip envelope. They share the same two stage calibration procedure and the same coverage statement, they use only the 
+observed scores of a sample, and they are implemented in an open source Python package. In our experiments the coverage 
+of all three constructions was close to the nominal level, and none of them was better than the others in every experiment.
+
+The coverage statement of Section~\ref{sec:setup} has limits. It holds for each class and not conditionally on the input 
+$x$, and it assumes that the samples of a class are exchangeable and that the missingness of the scores has the same 
+distribution in the calibration and in the test data. Filtering the candidate classes before the prediction can make it 
+fail whenever the filter removes the true class. If a class has few calibration samples, its threshold is infinite and 
+its envelope accepts every sample, which gives large prediction sets. 
+
+The experiments also have limits. The simulated data come from one generator in which scores are hidden completely at 
+random, and the football data have no missing scores, so we did not study scores that are missing for a reason related 
+to the class. We compared the three constructions only with each other, with the collapsed envelope as the simplest 
+baseline. We did not compare them with other conformal methods that combine several predictors, in particular the method 
+of \citet{ochoarivera2024conformal}. The parameters of the radial and strip envelopes were set to defaults and were not 
+tuned. Comparisons with these methods, scores that are not missing at random, and tuning of the parameters are directions 
+for future work.
