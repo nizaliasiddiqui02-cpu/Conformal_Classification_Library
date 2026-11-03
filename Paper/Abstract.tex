@@ -7,8 +7,8 @@ the calibration data of that class, and its size is scaled on the other part. He
 methods: a collapsed envelope that averages the scores, a radial envelope whose boundary depends on the direction of the 
 score vector, and a strip envelope that bounds each score given the value of another score. All three methods only use 
 the observed scores of a sample, so samples with missing scores still receive prediction sets. We show that when the 
-samples of a class are exchangeable and the missingness has the same dstribution in the calibration and test data, the 
-sets have atleast the nominal level of class conditional coverage. These constructions are implemented in an open source 
+samples of a class are exchangeable and the missingness has the same distribution in the calibration and test data, the 
+sets have at least the nominal level of class conditional coverage. These constructions are implemented in an open source 
 Python package. In experiments on simulated data with missing scores and on football player classification with four 
 roles and with twenty positions, the average coverage of all three constructions is between 0.899 and 0.903 for a 
 target of 0.9, the set sizes are similar, and no construction is best in every experiment.

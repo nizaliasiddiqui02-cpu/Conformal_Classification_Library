@@ -30,7 +30,7 @@ identically whatever the distribution of their coordinates is, so a single coord
 averaged together with all the others. The accepted region is a halfspace in the observed coordinates. It serves as a mean score baseline 
 for the multidimensional constructions below. After calibration on $S_2$, a vector is accepted when $\bar v/\tilde q\le\hat t$, 
 which is the same as $\bar v\le\hat t\,\tilde q$. Here $\hat t$ is the $k$-th smallest value of $\bar v/\tilde q$ over $v\in S_2$, 
-so $\hat t\,\tilde q$ is just the $k$-th smallest value of of $\bar v$ over $v\in S_2$. 
+so $\hat t\,\tilde q$ is just the $k$-th smallest value of $\bar v$ over $v\in S_2$. 
 % This means that $\tilde q$ does not change the prediction set, and for this method $S_1$ is only 
 % used to decide which coordinates are kept.
 
@@ -55,7 +55,7 @@ w_r\,Q_{1-\alpha}\bigl(\{\|v\|:d_v\cdot u_r\ge\cos\delta\}\bigr)+(1-w_r)\,\tilde
 \end{equation}
 
 where $n_{\min}=\max\{10,\lfloor 0.2\,|S_1|\rfloor\}$ is the minimum number of points required, $w_r=n_r/n_{\min}$, and 
-$\tilde q_{\mathrm{marg}}=Q_{1-\alpha}(\{\|s\|:s\in S_1\})$ is the marginal fallback radius. This helps us avoid a hard 
+$\tilde q_{\mathrm{marg}}=Q_{1-\alpha}(\{\|v\|:v\in S_1\})$ is the marginal fallback radius. This helps us avoid a hard 
 cutoff between sufficient and insufficient local support. To get a smooth boundary, we compute the radius in an arbitrary direction 
 $d$ as a weighted average of all $M$ calibrated radii,
 \begin{equation}\label{eq:smooth}
@@ -107,15 +107,16 @@ a target nor as a conditioning coordinate. The scaling function is
 \end{equation}
 so a vector is accepted when $v_i\le\hat t\,L_{j,i,\beta_j(v_j)}$ for every pair of observed coordinates. The single scalar 
 $\hat t$ multiplies all the limits, while the bins stay fixed. We use $NB=8$ and $n_0=3$ by default. Figure~\ref{fig:envelopes} 
-shows the three envelopes for two predictors.
+shows a two dimensional cross section of the three envelopes
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{Plots/2d_envelope_synthetic.png}
-\caption{Envelopes of the three constructions. The two dimensional envelope of one class of the 
-simulated data, fitted on two predictors only. The shaded region is the accepted region, and the 
-markers show test samples accepted or rejected by this two dimensional envelope.}
+\caption{Envelopes of the three constructions for class B of the simulated data. Each panel is a cross 
+section of the fitted four predictor envelope in the plane of two predictors, with the other two predictors 
+fixed at the nonconformity values 0.3 and 0.01. The shaded region is the accepted region of the cross 
+section, and the markers show test samples by the decision of the full model.}
 \label{fig:envelopes}
 \end{figure}
 

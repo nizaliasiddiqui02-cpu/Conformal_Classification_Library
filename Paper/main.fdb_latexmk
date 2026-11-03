@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex main"] 1793652662.65807 "main.aux" "main.bbl" "main" 1793652666.19006 0
+["bibtex main"] 1793736120.59281 "main.aux" "main.bbl" "main" 1793736123.75821 0
   "./cas-model2-names.bst" 1793087565 31802 28b630660245c09f173aac55be552b29 ""
   "./references.bib" 1793383929 3279 3ee5381ac968229e63c04905a0e391d1 ""
-  "main.aux" 1793652664 5274 b4a9febeb14a4f28b3eaf94f26cd611b "pdflatex"
+  "main.aux" 1793736122 5566 4d223c16c0cae9d54cab645566dea0d4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1793652663.41081 "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" "main.pdf" "main" 1793652666.19054 0
-  "Abstract.tex" 1793646170 2132 5e53ebd3881eb02f5c65d0ff93416b94 ""
+["pdflatex"] 1793736121.12187 "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" "main.pdf" "main" 1793736123.75862 0
+  "Abstract.tex" 1793736104 2134 67f9a6cc127fa1f14920e8b4d69978d5 ""
   "Plots/2d_envelope_synthetic.png" 1793560513 539101 ad872a83e4dc54b452618ae356600401 ""
-  "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" 1793652658 4884 ee54d46ed1b2d93e5c1a3a7af7d3c672 ""
+  "c:/Users/PMLS/Desktop/Conformal Library/Paper/main.tex" 1793736116 4927 47b7e1902af8826fd3cce9a80dc1db9d ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1779806415 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1779835047 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc" 1779835047 2836 154e6b0061f9b8cb549144b55b268339 ""
@@ -151,16 +151,16 @@
   "c:/texlive/2026/texmf.cnf" 1779836426 713 e69b156964470283e0530f5060668171 ""
   "cas-common.sty" 1793087565 76688 c602be3da196cb506acc84d1fa26b134 ""
   "cas-sc.cls" 1793087564 4410 65b518b1d7581e9c4ebe84b81471ee59 ""
-  "main.abs" 1793652664 1513 f33071ca42f5cdf2d4791431b9b530d1 "pdflatex"
-  "main.aux" 1793652664 5274 b4a9febeb14a4f28b3eaf94f26cd611b "pdflatex"
-  "main.bbl" 1793652663 3748 46ca4a0896037f21ee7eaf0998a864aa "bibtex main"
-  "main.out" 1793652664 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1793652658 4884 ee54d46ed1b2d93e5c1a3a7af7d3c672 ""
+  "main.abs" 1793736122 1515 1ea5a069e47630e9e6097c8a15223e98 "pdflatex"
+  "main.aux" 1793736122 5566 4d223c16c0cae9d54cab645566dea0d4 "pdflatex"
+  "main.bbl" 1793736121 3748 46ca4a0896037f21ee7eaf0998a864aa "bibtex main"
+  "main.out" 1793736121 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1793736116 4927 47b7e1902af8826fd3cce9a80dc1db9d ""
   "preamble.tex" 1793644872 286 66708bf1ed66217445e32fbd9d2a6534 ""
-  "section1.tex" 1793652014 3114 5ee53afeec7e458fecaacab10e8ef70f ""
-  "section2.tex" 1793652178 4945 d18444bb780ff6ff79d79abd3a46f5cd ""
-  "section3.tex" 1793652257 10998 18bc1a43f037be0842e3f6c60be24a40 ""
-  "section4.tex" 1793560699 4759 d4851df6d4963e3e33e1f7edcff1e095 ""
+  "section1.tex" 1793736104 2984 49ebc9dbaa1668f136e79dfd7f955775 ""
+  "section2.tex" 1793736104 4942 ff1cf460265cb20cad8f09d0288b4e66 ""
+  "section3.tex" 1793736104 11129 a70c311ecb077ceaea6cb1dd176fbb79 ""
+  "section4.tex" 1793736104 4820 6c3b84ad087f3be32c12254a5f357841 ""
   "section5.tex" 1793560699 4933 9d3d8fbc94c2b8b6792fd2bcd2cc43a7 ""
   "section6.tex" 1793652559 1863 b9a16e709c61b04bb9d0a29b0c5965dc ""
   "thumbnails/cas-email.jpeg" 1793087565 8764 ae276cc9956197082d008c18ae4cbb28 ""

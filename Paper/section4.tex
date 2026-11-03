@@ -66,15 +66,15 @@ print(evaluate_prediction_sets(pred["prediction_set"], list(y_test)))
 The model is created with the method (\texttt{"collapsed"}, \texttt{"radial"} or \texttt{"strip"}), the level $\alpha$ and 
 the optional parameters of the method from Section~\ref{sec3:constructions}. \texttt{fit} splits the sample of each class 
 into $S_1$ and $S_2$ (a fraction \texttt{shape\_fraction}, $0.5$ by default, goes to $S_1$), builds the envelope and 
-computes $\hat t$. \texttt{predict} returns one row for each sample, with the prediction set, its size, the value of $\tau$ 
-for each label and an indicator \texttt{forced}. The optional rule that replaces an empty set by the label with the smallest 
-$\tau$ is on by default (\texttt{force\_nonempty}), and it is switched off in Section~\ref{sec:experiments}. 
-\texttt{evaluate\_prediction\_sets} computes the coverage, the average set size, the singleton rate, the empty set rate and 
-the coverage of each class. Finally, a fitted model can be saved and loaded.
+computes $\hat t$. \texttt{predict} returns one row for each sample, with the prediction set, its size, the value of $\tau/\hat t$
+for each label (a label is in the set when this value is at most $1$) and an indicator \texttt{forced}. The optional rule that 
+replaces an empty set by the label with the smallest $\tau$ is on by default (\texttt{force\_nonempty}), and it is switched off 
+in Section~\ref{sec:experiments}. \texttt{evaluate\_prediction\_sets} computes the coverage, the average set size, the singleton 
+rate, the empty set rate and the coverage of each class. Finally, a fitted model can be saved and loaded.
 
 \paragraph{Visualisation.} \texttt{plot} fits a separate two dimensional envelope for two selected predictors and shows it 
-with the test samples, as in Figure~\ref{fig:envelopes}. \texttt{plot\_slice} shows a cross section of the fitted envelope, 
-with the other coordinates fixed at chosen values. Finally, for each true class \texttt{plot\_inclusion\_heatmap} shows 
+with the test samples. \texttt{plot\_slice} shows a cross section of the fitted envelope, with the other coordinates fixed at 
+chosen values, as in Figure~\ref{fig:envelopes}. Finally, for each true class \texttt{plot\_inclusion\_heatmap} shows 
 how often every label appears in the prediction sets, and its diagonal gives the coverage of each class.
 
 \paragraph{Examples} The repository contains notebooks for the Iris tutorial above, the simulated experiment 

@@ -3,8 +3,8 @@
 Conformal prediction can be used to turn the output of any trained predictor into a prediction set that contains the 
 true label with a defined probability, and it needs no assumption on the distribution of the data except exchangeability 
 \citep{vovk2005algorithmic,shafer2008tutorial,angelopoulos2023conformal}. In classification, the set is built from a 
-conformity scores (scores that measures how badly a candidate label agrees with an input). The coverage guarantee holds 
-for every choice of score, but the choice effects the size of the sets. A poorly chosen score gives sets that are valid 
+nonconformity score, which measures how badly a candidate label agrees with an input. The coverage guarantee holds 
+for every choice of score, but the choice affects the size of the sets. A poorly chosen score gives sets that are valid 
 but too large to be useful.
 
 Several predictors also often score each candidate class, for example classifiers with different models or different input 
@@ -12,7 +12,7 @@ features. These candidate scores are then combined into a vector, which is aggre
 fixed rule such as the mean treats all predictors in the same way, even though they can differ in reliability and they 
 can be dependent on other predictors. Mostly the methods for conformal aggregation combine the prediction sets of the 
 individual predictors \citep{gasparin2024merging,yang2024selection}, or project the score vector on one weighted direction 
-\citep{luo2024weighted}. Instead of this, Ochoa Rivera et al.~\citep{ochoarivera2024conformal} work in score space. They 
+\citep{luo2024weighted}. Instead of this, \citet{ochoarivera2024conformal} work in score space. They 
 define a quantile envelope for the multivariate score as the intersection of half spaces along random directions, learn 
 its shape on one part of the calibration data and scale it on the other part, which gives marginal coverage.
 
@@ -24,10 +24,9 @@ with the direction of the score vector, and a strip envelope, which bounds each 
 coordinate. The radial and strip envelopes are not intersections of half  spaces, and all three constructions use only 
 the observed scores of a sample, so a score vector with missing entries can still be assigned a prediction set.
 
-Our contributions are the two multidimensional constructions 
-% together with a class conditional coverage statement and its assumptions (Sections~\ref{sec:setup} 
-% and~\ref{sec3:constructions}), 
-an open source Python package that implements them (Section~\ref{sec:software}), and experiments on simulated data with 
-missing scores and on football player data (Section~\ref{sec:experiments}). In these experiments the coverage is close 
-to the nominal level for all three constructions, and we do not claim that one of them is better than the others in 
-general. The last section discusses the limitations of our work.
+
+Our contributions are the radial and strip constructions, the handling of missing scores, an open source Python package that 
+implements them (Section~\ref{sec:software}), and experiments on simulated data with missing scores and on football player 
+data (Section~\ref{sec:experiments}). In these experiments the coverage is close to the nominal level for all three 
+constructions, and we do not claim that one of them is better than the others in general. The last section discusses the 
+limitations of our work.
